@@ -1,0 +1,63 @@
+#loginid{
+   font-size: 45px;
+   padding-top: 20px;
+   color: white;
+}
+
+form {
+	margin-top:-40px;
+
+}
+
+
+.login{
+	text-align: center;
+	
+  	border: 0px solid #42464b;
+  	border-radius: 6px;
+  	height: 360px;
+  	margin: 20px auto 0;
+  	width: 650px;
+  	margin-top: 200px;
+}
+input[type=text], input[type=password]{
+    
+    padding: 6px 20px;
+    margin: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    background-color: #f5f5f5;
+
+}
+
+#username{
+	font-size:35px;
+	margin-top: 20px;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 1.5cm;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    border:0 none;
+    border-radius: 5px; 
+    background-color: #4EB1BA;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+#password{
+	font-size:35px;
+}
+#submit{
+	font-size:25px;
+}
+@media screen and (max-width: 768px) {
+   .login{
+   	margin-top: 50px;
+   	margin-right: 40%;
+   }
+}
